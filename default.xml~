@@ -279,8 +279,8 @@
 
    START: BroadcomCM repos -->
   <project path="android" name="BroadcomCM/android" revision="ics-plus" />
-  <project path="frameworks/base" name="BroadcomCM6/android_frameworks_base" remote="BroadcomCM" revision="ics-plus" />
-  <project path="system/core" name="BroadcomCM6/android_system_core" remote="BroadcomCM" revision="ics-plus" />
-  <project path="bionic" name="BroadcomCM/android_bionic" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="BroadcomCM" revision="ics-plus" />
+  <project path="system/core" name="android_system_core" remote="BroadcomCM" revision="ics-plus" />
+  <project path="bionic" name="android_bionic" />
 
 </manifest>

@@ -278,9 +278,9 @@
   <project path="vendor/google" name="androidarmv6/android_vendor_google" remote="github" revision="ics-plus" />
 
    START: BroadcomCM repos -->
-  <project path="android" name="BroadcomCM/android" revision="ics-plus" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="BroadcomCM" revision="ics-plus" />
-  <project path="system/core" name="android_system_core" remote="BroadcomCM" revision="ics-plus" />
-  <project path="bionic" name="android_bionic" />
+  <project path="android" name="BroadcomCM/android" remote="private" revision="ics-plus" />
+  <project path="frameworks/base" name="BroadcomCM/android_frameworks_base" remote="private" revision="ics-plus" />
+  <project path="system/core" name="BroadcomCM/android_system_core" remote="private" revision="ics-plus" />
+  <project path="bionic" name="BroadcomCM/android_bionic" remote="private" revision="ics-plus"/>
 
 </manifest>
