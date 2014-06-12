@@ -288,5 +288,5 @@
   <project path="frameworks/base" name="broadcomCM/android_frameworks_base" remote="private" revision="ics-plus" />
   <project path="system/core" name="broadcomCM/android_system_core" remote="private" revision="ics-plus" />
   <project path="bionic" name="broadcomCM/android_bionic" remote="private" revision="ics"/>
-  <!-- END: androidarmv6 repos -->
+  <!-- END: BroadcomCM repos -->
 </manifest>
